@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="weather-app">
+
+        <div class="upper-part fade-down">
+            <h1 class="day">Tuesday</h1>
+            <p class="date">19 Jun 2026</p>
+
+            <div class="location">
+                <span>📍 Cairo, EGY</span>
+            </div>
+        </div>
+
+        <div class="lower-part fade-up">
+            <img src="/weather/images/icons/sun-icon.svg" alt="weather icon" class="weather-icon floating">
+            <h1 class="temp">29°</h1>
+            <h2 class="status">Sunny</h2>
+        </div>
+
+        <div class="info fade-up">
+            <div class="box hover-glow">
+                <p class="label">Humidity</p>
+                <p class="value">60%</p>
+            </div>
+            <div class="box hover-glow">
+                <p class="label">Wind</p>
+                <p class="value">12 km/h</p>
+            </div>
+        </div>
+
+    </main>
+<script src="index.js" type="module"></script>
+</body>
+
+</html>
